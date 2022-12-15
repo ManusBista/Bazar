@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#B2BEB5</color>
+
+
+<!--    ll-->
+    <color name="color_success">#3CCD88</color>
+    <color name="color_error">#f44336</color>
+    <color name="main_merchant_first">#009688</color>
+    <color name="main_merchant_second">#00BCD4</color>
+    <color name="main_merchant_third">#4CAF50</color>
+    <color name="main_merchant_fourth">#FF5722</color>
+    <color name="main_merchant_fifth">#727272</color>
+    <color name="cancel_color">#e4e6e7</color>
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+    <color name="highlight">#f3f3f3</color>
+    <color name="color_primary_text">#262525</color>
+    <color name="color_secondary_text">#676767</color>
+    <color name="color_thirtary_text">#a6a6a6</color>
+    <color name="background_view">#e6e1e1</color>
+    <color name="background_color_all">#f5f5f5</color>
+    <color name="main_page_background">#474A53</color>
+    <color name="color_separator_whitebackground">#a2e0e3e6</color>
+    <color name="color_total_sent">#bababb</color>
+    <color name="color_total_view">#76bababb</color>
+    <color name="menu_iteam_separator">#e8e8e8</color>
+    <color name="profile_navigation">#ede9e6</color>
+
+    <color name="histry_first">#177F75</color>
+    <color name="histry_second">#B6212D</color>
+    <color name="histry_third">#7F171F</color>
+    <color name="histry_four">#B67721</color>
+    <color name="histry_fifth">#7F5417</color>
+    <color name="background_drawable_taxi">#979797
+    </color>
+    <color name="color_setting_background">#55a5e3</color>
+    <color name="taxi_set_online">#59bc6c</color>
+
+    <color name="deep_blue_taxi_background">#009EDD</color>
+    <color name="taxi_body_background">#e4e9ee</color>
+    <color name="swap_layout_color">#bf1f00</color>
+    <color name="background_like_blace">#212229</color>
+    <color name="color_main_first">#d69a33</color>
+    <color name="color_main_second">#5a78c4</color>
+    <color name="color_main_third">#108591</color>
+    <color name="color_main_fourth">#dc6166</color>
+
+    <color name="color_balance_check">#1aace1</color>
+    <color name="error_button">#94331f</color>
+    <color name="background_tint">#d1d1d1</color>
+    <color name="color_blue">#1898ab</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="colorFAB2">#E040FB</color>
+    <color name="forget_pass">#DA6B6B</color>
+
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="colorFAB1">#2196F3</color>
+    <!--otp color-->
+    <!-- color for otp edit Text -->
+    <color name="underline_default_color">#CCCCCC</color>
+    <color name="underline_selected_color">#000</color>
+    <color name="hintColor">#CCCCCC</color>
+    <color name="textColor">#000</color>
+
+    <color name="transparentblack70">#b3000000</color>
+    <color name="transparentblack60">#99000000</color>
+    <color name="transparentblack30">#4D000000</color>
+    <color name="transparentblack90">#E6000000</color>
+    <color name="transparentblack85">#D9000000</color>
+    <color name="transparent_theme">#cc59bc6c</color>
+    <color name="transparent_white">#ccFFFFFF</color>
+    <color name="payment_sucess">#5ea83e</color>
+    <color name="darker_gray">#8b8888</color>
+    <color name="dim_text">#9a9a9a</color>
+    <color name="shadow">#60b9b7b7</color>
+    <color name="shadow_dark">#60696868</color>
+    <color name="text_menu_color">#757575
+    </color>
+    <color name="sales_red">#fd464b</color>
+    <color name="red_btn_bg_color">#fd464b</color>
+    <color name="background_grey">#eef0f1</color>
+    <color name="color_yellow">#f9da2f</color>
+    <color name="ios_steel">#797979</color>
+
+    <!-- Grey scales -->
+    <color name="gray200">#EEEEEE</color>
+    <color name="gray300">#E0E0E0</color>
+    <color name="blueGray50">#ECEFF1</color>
+    <color name="blueGray200">#B0BEC5</color>
+    <color name="blueGray300">#90A4AE</color>
+    <color name="blueGray400">#78909C</color>
+    <color name="blueGray500">#607D8B</color>
+    <color name="card_background">#ffffff</color>
+
+    <!--card color-->
+    <color name="transparents">#00000000</color>
+    <color name="card_shadow_1">#d4d4d4</color>
+    <color name="card_shadow_2">#dddddd</color>
+    <color name="card_detailing">#eee</color>
+    <color name="view_line_color">#dfdddd</color>
+
+
+    ////////////////////////////////////////////////
+    <color name="themDim">#49ef99</color>
+    <!--otp color-->
+    <!-- color for otp edit Text -->
+
+    <color name="info_color">#ef5350</color>
+
+
+    <item name="blue" type="color">#FF33B5E5</item>
+    <item name="purple" type="color">#FFAA66CC</item>
+    <item name="green" type="color">#FF99CC00</item>
+    <item name="orange" type="color">#FFFFBB33</item>
+    <item name="reds" type="color">#FFFF4444</item>
+    <item name="darkblue" type="color">#FF0099CC</item>
+    <item name="darkpurple" type="color">#FF9933CC</item>
+    <item name="darkgreen" type="color">#FF669900</item>
+    <item name="darkorange" type="color">#FFFF8800</item>
+    <item name="darkred" type="color">#FFCC0000</item>
+
+    <integer-array name="androidcolors">
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/reds</item>
+        <item>@color/darkblue</item>
+        <item>@color/darkpurple</item>
+        <item>@color/darkgreen</item>
+        <item>@color/darkorange</item>
+        <item>@color/darkred</item>
+    </integer-array>
+    <color name="colorPrimaryText">#262525</color>
+    <color name="colorSecondaryText">#676767</color>
+    <color name="black_alpha">#b0030303</color>
+    <color name="green500">#4CAF50</color>
+
+    <color name="movie_green">#02a751</color>
+    <color name="available_movie">#007e22</color>
+    <color name="choosen">#911985</color>
+
+    <color name="movie_text_dim">#d5f4e4</color>
+    <color name="mdtp_light_gray">#424242</color>
+    <color name="red">#bf1f00</color>
+
+    <color name="light_grey">#f2f3f3</color>
+
+    <color name="text_selected">#b0003a</color>
+    <color name="text_focused">#E91E63</color>
+    <color name="text_default">#F8BBD0</color>
+    <color name="text_hint_default">#BDBDBD</color>
+    <color name="line_selected">#E91E63</color>
+    <color name="line_focused">#3F51B5</color>
+    <color name="line_default">#C5CAE9</color>
+
+    <color name="text_color">#303030</color>
+    <color name="gray_line">#dadada</color>
+    <color name="holo_red_light">#FF4444</color>
+    <color name="holo_green_light">#1de192</color>
+    <color name="dark_gray">#E4E4E4</color>
+    <color name="transparent">#00000000</color>
+    <color name="black50transparent">#32000000</color>
+    <color name="colorBackgroundText">#e5f3fa</color>
+    <color name="background">#68c0f5</color>
+    <color name="textColorDarkOrange">#8C5C16</color>
+    <color name="colorLightGrey">#48CFCFCF</color>
+    <color name="colorLabel">#797979</color>
+    <color name="colorLightBlue">#9F243B82</color>
+    <color name="colorLightWhite">#4FFFFFFF</color>
+    <color name="cursor_color">#918f8f</color>
+    <color name="colorStandee">#18122b</color>
+
+    <color name="cal_col">#8BA1C2</color>
+    <color name="cl_cl">#0D3E649D</color>
+    <color name="button_col">#DA6B6B</color>
+    <color name="finalGray">#f1f1f1</color>
+    <color name="txt_col">#061B3A</color>
+
+    <color name="historyColor">#DA6B6B</color>
+    <color name="textColorForCertainItem">#7B7B7B</color>
+
+    <color name="textColorForPass">#60000000</color>
+    <color name="help_supp">#3E649D</color>
+    <color name="cal_btn">#010145</color>
+
+
+    <color name="qr_bckgnd">#103E649D</color>
+
+    <color name="mid_col">#E3E2E2</color>
+    <color name="uns_reward">#8BA1C2</color>
+
+    <color name="m_info">#E5E5E5</color>
+
+
+    <color name="backgroundColor">#E8E8E8</color>
+
+
+</resources>

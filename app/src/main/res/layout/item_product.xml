@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/image_pro"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+          />
+
+        <TextView
+            android:id="@+id/value_pro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:padding="7dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/e"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+            <TextView
+                android:id="@+id/price_pro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:fontFamily="@font/d"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
