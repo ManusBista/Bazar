@@ -15,7 +15,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/histry_first"
+            android:background="@color/splashBackgroundColor"
             android:padding="10dp">
 
             <com.mancj.materialsearchbar.MaterialSearchBar
