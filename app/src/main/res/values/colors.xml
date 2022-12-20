@@ -197,6 +197,8 @@
 
     <color name="qr_bckgnd">#103E649D</color>
 
+    <color name="login_bckgnd">#F0F4F3</color>
+
     <color name="mid_col">#E3E2E2</color>
     <color name="uns_reward">#8BA1C2</color>
 
