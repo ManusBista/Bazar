@@ -12,8 +12,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:padding="10dp"
         android:background="@color/login_bckgnd">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="70dp"
+            android:padding="10dp"
+           >
 
     <TextView
         android:layout_width="wrap_content"
@@ -21,11 +29,14 @@
         android:text="Welcome Onboard !"
         android:gravity="center"
         android:layout_gravity="center"
-        android:layout_marginTop="188dp"
+        android:layout_marginTop=""
+        android:padding="10dp"
         android:textSize="18dp"
         android:textColor="#000000"
-        android:ems="15"
+        android:textStyle="bold"
+        android:ems="16"
         />
+        </LinearLayout>
 
 
 
@@ -33,22 +44,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="@color/login_bckgnd"
             >
 
-    <EditText
-        android:id="@+id/register_fullname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="Enter your full name"
-        android:layout_gravity="center"
-        android:padding="10dp"
-        android:paddingStart="20dp"
-        android:textSize="18dp"
-        android:background="@drawable/shape"
-        android:ems="16"
-        android:layout_marginTop="20dp"
-        />
+
     <EditText
         android:id="@+id/register_email"
         android:layout_width="wrap_content"
@@ -97,21 +95,56 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="20dp"
             android:background="@color/login_bckgnd">
-    <Button
-        android:id="@+id/regieter_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textAllCaps="false"
-        android:text="Register"
-        android:textColor="#FFFFFF"
-        android:backgroundTint="#333333"
-        android:textSize="18dp"
-        android:ems="15"
-        android:layout_marginTop="20dp"
-        />
+
+            <Button
+                android:id="@+id/regieter_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:text="Register"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#333333"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:ems="15"
+                android:layout_marginTop="20dp"
+                />
+            <Button
+                android:id="@+id/goole_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:text="Continue with google"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:paddingStart="20dp"
+                android:backgroundTint="#FFFFFF"
+                android:drawableLeft="@drawable/google_icon"
+                android:textSize="18dp"
+                android:ems="14"
+                android:layout_marginTop="20dp"
+                />
+            <Button
+                android:id="@+id/apple_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:text="Continue with apple"
+                android:paddingStart="20dp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#333333"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/apple_icon"
+                android:textSize="18dp"
+                android:ems="14"
+                android:layout_marginTop="20dp"
+                 />
+
         </LinearLayout>
 
     <LinearLayout
@@ -119,6 +152,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="10dp"    >
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -127,7 +161,7 @@
             android:layout_gravity="center"
             android:textSize="14dp"
             android:textColor="#000000"
-            android:layout_marginLeft="120dp"
+            android:layout_marginLeft="110dp"
             android:textAlignment="center"
 
             />
