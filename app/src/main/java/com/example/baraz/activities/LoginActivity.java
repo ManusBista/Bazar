@@ -9,7 +9,9 @@ import com.example.baraz.databinding.ActivityLoginBinding;
 
 public class LoginActivity extends AppCompatActivity {
 
+
     ActivityLoginBinding binding;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
