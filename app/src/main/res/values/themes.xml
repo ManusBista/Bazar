@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.Baraz" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/histry_first</item>
+        <item name="colorPrimary">@color/splashBackgroundColor</item>
         <item name="colorPrimaryVariant">@color/splashBackgroundColor </item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
