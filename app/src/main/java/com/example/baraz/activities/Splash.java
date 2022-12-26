@@ -21,17 +21,17 @@ public class Splash extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         binding.splashBtn.setOnClickListener(view -> {
-            Intent intent = new Intent(Splash.this, MainActivity.class);
+            Intent intent = new Intent(Splash.this, LoginActivity.class);
             startActivity(intent);
         });
 
-//        Intent intent = new Intent(Splash.this, MainActivity.class);
-//
-//        new Handler().postDelayed(new Runnable() {
-//            @Override
-//            public void run() {
-//                startActivity(intent);
-//            }
-//        },3000);
+        Intent intent = new Intent(Splash.this, Continue.class);
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                startActivity(intent);
+            }
+        },3000);
     }
 }

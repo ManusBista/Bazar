@@ -32,7 +32,7 @@
             android:ellipsize="end"
             android:padding="7dp"
             android:textSize="20sp"
-            android:fontFamily="@font/e"
+            android:fontFamily="@font/pr"
             android:textStyle="bold"
             android:gravity="center"
             />
@@ -46,7 +46,7 @@
                 android:textStyle="bold"
                 android:textSize="18dp"
                 android:gravity="center"
-                android:fontFamily="@font/d"/>
+                android:fontFamily="@font/pr"/>
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>

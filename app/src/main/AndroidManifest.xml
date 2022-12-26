@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Baraz"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".activities.Continue"
+            android:exported="false" />
+        <activity
             android:name=".activities.LoginActivity"
             android:exported="false" />
         <activity
