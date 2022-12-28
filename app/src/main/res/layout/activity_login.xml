@@ -13,19 +13,28 @@
         android:background="@color/login_bckgnd"
         android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="130dp"
+
             android:ems="15"
             android:gravity="center"
             android:padding="10dp"
+            android:fontFamily="@font/psb"
             android:text="Welcome Back !"
             android:textColor="#000000"
             android:textSize="18dp"
             android:textStyle="bold" />
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -51,81 +60,101 @@
             android:padding="5dp">
 
             <EditText
-                android:id="@+id/login_mail"
+                android:id="@+id/login_email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/shape"
-                android:ems="16"
+                android:ems="13"
                 android:hint="Enter your email"
+                android:fontFamily="@font/pr"
                 android:padding="10dp"
                 android:paddingStart="20dp"
                 android:textSize="18dp" />
 
             <EditText
-                android:id="@+id/login_pass"
+                android:id="@+id/login_password"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/shape"
-                android:ems="16"
+                android:ems="13"
+                android:fontFamily="@font/pr"
+
                 android:hint="Enter your password"
                 android:padding="10dp"
                 android:paddingStart="20dp"
                 android:textSize="18dp" />
+
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:background="@color/login_bckgnd"
             android:orientation="vertical"
             android:padding="5dp">
 
             <Button
-                android:id="@+id/login_btn"
+                android:id="@+id/login_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:backgroundTint="#333333"
-                android:ems="16"
-                android:text="Register"
+                android:ems="8"
+                android:text="LOGIN"
+                android:fontFamily="@font/psb"
                 android:textAllCaps="false"
                 android:textColor="#FFFFFF"
                 android:textSize="18dp" />
+            <TextView
+                android:id="@+id/forgot_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:padding="8dp"
+                android:text="Forgot Password?"
+                android:textSize="16sp" />
+
+            <com.developer.gbuttons.GoogleSignInButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign in with Google"
+                android:id="@+id/googleBtn"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:padding="8dp"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:gravity="center"
             android:orientation="horizontal"
             android:padding="5dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="80dp"
-                android:gravity="center"
                 android:padding="5dp"
+                android:fontFamily="@font/psb"
                 android:text="Don't have an account ?"
                 android:textAlignment="center"
                 android:textColor="#554F4F"
-                android:textSize="14dp"
-
-                />
+                android:textSize="14dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="2dp"
                 android:padding="5dp"
+                android:fontFamily="@font/psb"
+                android:id="@+id/signUpRedirectText"
                 android:text="Sign up"
                 android:textColor="#FDB62F"
                 android:textSize="14dp"

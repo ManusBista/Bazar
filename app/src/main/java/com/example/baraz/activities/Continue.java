@@ -24,6 +24,17 @@ public class Continue extends AppCompatActivity {
             startActivity(intent);
         });
 
+        binding.loginBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(Continue.this, LoginActivity.class);
+            startActivity(intent);
+        });
+
+        binding.signupBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(Continue.this, RegisterActivity.class);
+            startActivity(intent);
+        });
+
+
 //        binding.img.setImageResource(R.drawable.logo);
     }
 }

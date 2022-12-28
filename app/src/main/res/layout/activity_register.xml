@@ -11,176 +11,168 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/login_bckgnd"
         android:orientation="vertical"
-        android:padding="10dp"
-        android:background="@color/login_bckgnd">
+        android:padding="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_marginTop="70dp"
-            android:padding="10dp"
-           >
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome Onboard !"
-        android:gravity="center"
-        android:layout_gravity="center"
-
-        android:padding="10dp"
-        android:textSize="18dp"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        android:ems="16"
-        />
-        </LinearLayout>
-
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:orientation="vertical"
-            >
+            android:padding="10dp">
 
-
-    <EditText
-        android:id="@+id/register_email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="Enter your email"
-        android:layout_gravity="center"
-        android:padding="10dp"
-        android:paddingStart="20dp"
-        android:textSize="18dp"
-        android:background="@drawable/shape"
-        android:ems="16"
-        android:layout_marginTop="20dp"
-        />
-
-    <EditText
-        android:id="@+id/register_pass"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="Enter your password"
-        android:layout_gravity="center"
-        android:padding="10dp"
-        android:paddingStart="20dp"
-        android:textSize="18dp"
-        android:background="@drawable/shape"
-        android:ems="16"
-        android:layout_marginTop="20dp"
-        />
-
-    <EditText
-        android:id="@+id/register_confirm_pass"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="Confirm password"
-        android:layout_gravity="center"
-        android:padding="10dp"
-        android:paddingStart="20dp"
-        android:textSize="18dp"
-        android:background="@drawable/shape"
-        android:ems="16"
-        android:layout_marginTop="20dp"
-        />
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="20dp"
-            android:background="@color/login_bckgnd">
-
-            <Button
-                android:id="@+id/regieter_btn"
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textAllCaps="false"
-                android:text="Register"
-                android:textColor="#FFFFFF"
-                android:backgroundTint="#333333"
-                android:textSize="18dp"
+                android:ems="16"
+                android:fontFamily="@font/psb"
+                android:gravity="center"
                 android:padding="10dp"
-                android:ems="15"
+                android:text="Welcome Onboard !"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/signup_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                />
+                android:background="@drawable/shape"
+                android:ems="16"
+                android:hint="Enter your email"
+                android:padding="10dp"
+                android:paddingStart="20dp"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/signup_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:ems="16"
+                android:hint="Enter your password"
+                android:padding="10dp"
+                android:paddingStart="20dp"
+                android:textSize="18dp" />
+
+<!--            <EditText-->
+<!--                android:id="@+id/register_confirm_pass"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="@drawable/shape"-->
+<!--                android:ems="16"-->
+<!--                android:hint="Confirm password"-->
+<!--                android:padding="10dp"-->
+<!--                android:paddingStart="20dp"-->
+<!--                android:textSize="18dp" />-->
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/login_bckgnd"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/signup_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:ems="15"
+                android:padding="10dp"
+                android:text="Register"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
             <Button
                 android:id="@+id/goole_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textAllCaps="false"
-                android:text="Continue with google"
-                android:textColor="#000000"
-                android:padding="10dp"
-                android:paddingStart="20dp"
+                android:layout_marginTop="20dp"
                 android:backgroundTint="#FFFFFF"
                 android:drawableLeft="@drawable/google_icon"
-                android:textSize="18dp"
                 android:ems="14"
-                android:layout_marginTop="20dp"
-                />
+                android:padding="10dp"
+                android:paddingStart="20dp"
+                android:text="Continue with google"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
             <Button
                 android:id="@+id/apple_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textAllCaps="false"
-                android:text="Continue with apple"
-                android:paddingStart="20dp"
-                android:textColor="#FFFFFF"
-                android:backgroundTint="#333333"
-                android:padding="10dp"
-                android:drawableLeft="@drawable/apple_icon"
-                android:textSize="18dp"
-                android:ems="14"
                 android:layout_marginTop="20dp"
-                 />
+                android:backgroundTint="#333333"
+                android:drawableLeft="@drawable/apple_icon"
+                android:ems="14"
+                android:padding="10dp"
+                android:paddingStart="20dp"
+                android:text="Continue with apple"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
 
         </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="10dp"    >
-
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Already have an account ?"
-            android:gravity="center"
-            android:layout_gravity="center"
-            android:textSize="14dp"
-            android:textColor="#000000"
-            android:layout_marginLeft="110dp"
-            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
 
-            />
-        <TextView
-            android:id="@+id/signUP_register"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Sign up"
-            android:padding="2dp"
-            android:layout_marginLeft="5dp"
-            android:layout_gravity="center"
-            android:textSize="14dp"
-            android:textColor="#FDB62F"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="110dp"
+                android:gravity="center"
+                android:text="Already have an account ?"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14dp"
 
-            />
+                />
+
+            <TextView
+                android:id="@+id/loginRedirectText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:padding="2dp"
+                android:text="Sign up"
+                android:textColor="#FDB62F"
+                android:textSize="14dp"
+
+                />
+
+
+        </LinearLayout>
 
 
     </LinearLayout>
-
-
-</LinearLayout>
 </LinearLayout>
