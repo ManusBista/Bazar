@@ -66,4 +66,8 @@ dependencies {
 //    advance WebView
     implementation 'com.github.delight-im:Android-AdvancedWebView:v3.2.1'
 
+    // dimen
+    implementation 'com.intuit.ssp:ssp-android:1.0.5'
+    implementation 'com.intuit.sdp:sdp-android:1.0.5'
+
 }
