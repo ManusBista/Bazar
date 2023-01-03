@@ -207,5 +207,9 @@
 
     <color name="backgroundColor">#E8E8E8</color>
 
+    <color name="product_txt">#858585</color>
+    <color name="product_btn">#858585</color>
+
+
     <color name="splashBackgroundColor">#333333</color>
 </resources>

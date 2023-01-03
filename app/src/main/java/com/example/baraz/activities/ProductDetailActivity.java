@@ -48,11 +48,29 @@ public class ProductDetailActivity extends AppCompatActivity {
                 .load(image)
                 .into(binding.productImage);
 
+        binding.productName.setText(name);
+        binding.backPress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
+        binding.cart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent  = new Intent(ProductDetailActivity.this, CartActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        binding.desName.setText(name);
+//
         getProductDetails(id);
-
-        getSupportActionBar().setTitle(name);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//
+//        getSupportActionBar().setTitle(name);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Cart cart = TinyCartHelper.getCart();
 
@@ -111,9 +129,9 @@ public class ProductDetailActivity extends AppCompatActivity {
         queue.add(request);
     }
 
-    @Override
-    public boolean onSupportNavigateUp() {
-        finish();
-        return super.onSupportNavigateUp();
-    }
+//    @Override
+//    public boolean onSupportNavigateUp() {
+//        finish();
+//        return super.onSupportNavigateUp();
+//    }
 }
