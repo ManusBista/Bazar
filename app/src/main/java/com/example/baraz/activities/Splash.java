@@ -20,10 +20,10 @@ public class Splash extends AppCompatActivity {
         binding = ActivitySplashBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        binding.splashBtn.setOnClickListener(view -> {
-            Intent intent = new Intent(Splash.this, LoginActivity.class);
-            startActivity(intent);
-        });
+//        binding.splashBtn.setOnClickListener(view -> {
+//            Intent intent = new Intent(Splash.this, LoginActivity.class);
+//            startActivity(intent);
+//        });
 
         Intent intent = new Intent(Splash.this, Continue.class);
 

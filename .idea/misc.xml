@@ -35,6 +35,7 @@
         <entry key="..\:/bazar/Bazar/app/src/main/res/drawable/back_br.xml" value="0.1705" />
         <entry key="..\:/bazar/Bazar/app/src/main/res/drawable/bazar_logo.xml" value="0.251" />
         <entry key="..\:/bazar/Bazar/app/src/main/res/drawable/cart.xml" value="0.1705" />
+        <entry key="..\:/bazar/Bazar/app/src/main/res/drawable/costomd.xml" value="0.251" />
         <entry key="..\:/bazar/Bazar/app/src/main/res/drawable/edittext_bg.xml" value="0.1705" />
         <entry key="..\:/bazar/Bazar/app/src/main/res/drawable/ic_bazar.xml" value="0.251" />
         <entry key="..\:/bazar/Bazar/app/src/main/res/drawable/ic_launcher_background.xml" value="0.251" />
@@ -43,12 +44,14 @@
         <entry key="..\:/bazar/Bazar/app/src/main/res/drawable/login_pic.xml" value="0.251" />
         <entry key="..\:/bazar/Bazar/app/src/main/res/drawable/roundbutton.xml" value="0.251" />
         <entry key="..\:/bazar/Bazar/app/src/main/res/drawable/shape.xml" value="0.251" />
+        <entry key="..\:/bazar/Bazar/app/src/main/res/layout/activity_cart.xml" value="0.3359375" />
         <entry key="..\:/bazar/Bazar/app/src/main/res/layout/activity_category.xml" value="0.3359375" />
         <entry key="..\:/bazar/Bazar/app/src/main/res/layout/activity_checkout.xml" value="0.3359375" />
         <entry key="..\:/bazar/Bazar/app/src/main/res/layout/activity_continue.xml" value="0.3359375" />
         <entry key="..\:/bazar/Bazar/app/src/main/res/layout/activity_login.xml" value="0.3359375" />
         <entry key="..\:/bazar/Bazar/app/src/main/res/layout/activity_main.xml" value="0.3359375" />
         <entry key="..\:/bazar/Bazar/app/src/main/res/layout/activity_payment.xml" value="0.3359375" />
+        <entry key="..\:/bazar/Bazar/app/src/main/res/layout/activity_product_detail.xml" value="0.3359375" />
         <entry key="..\:/bazar/Bazar/app/src/main/res/layout/activity_register.xml" value="0.3359375" />
         <entry key="..\:/bazar/Bazar/app/src/main/res/layout/activity_search.xml" value="0.3359375" />
         <entry key="..\:/bazar/Bazar/app/src/main/res/layout/activity_splash.xml" value="0.3359375" />

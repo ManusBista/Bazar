@@ -36,7 +36,7 @@ public class Continue extends AppCompatActivity {
 
 
 // Set the button's background to the drawable
-        binding.signUpBtn.setBackground(drawable);
+        binding.signupBtn.setBackground(drawable);
 
         binding.cuntBtn.setOnClickListener(view -> {
             Intent intent = new Intent(Continue.this, MainActivity.class);

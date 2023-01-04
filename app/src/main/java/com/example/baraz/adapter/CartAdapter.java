@@ -114,7 +114,6 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
 //                cart.updateItem(product,product.getQuantity());
 //                cartListener.onQuantityChanged();
             });
-
             dialog.show();
         });
     }
