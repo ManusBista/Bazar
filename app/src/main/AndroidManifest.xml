@@ -50,9 +50,8 @@
             android:theme="@style/Theme.Baraz.Actionbar" />
         <activity
             android:name=".activities.CartActivity"
-            android:exported="false"
-            android:label="Shopping Cart"
-            android:theme="@style/Theme.Baraz.Actionbar" />
+            android:exported="false"/>
+<!--            android:theme="@style/Theme.Baraz.Actionbar" />-->
         <activity
             android:name=".activities.ProductDetailActivity"
             android:exported="false"/>

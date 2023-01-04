@@ -135,12 +135,14 @@
                             android:gravity="right"
                             android:orientation="horizontal">
 
-                            <ImageView
+                            <ImageButton
+                                android:id="@+id/like"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:layout_marginBottom="3dp"
-                                android:src="@drawable/ic_vectorfavs" />
+                                android:src="@drawable/ic_baseline_favorite_border_24"
+                                android:background="@color/transparent"/>
 
                         </LinearLayout>
 

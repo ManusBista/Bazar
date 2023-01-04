@@ -7,12 +7,18 @@
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/drawable/cart.xml" value="0.178" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/drawable/costomd.xml" value="0.178" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/drawable/edittext_bg.xml" value="0.1185" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.1075" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/drawable/ic_guuuta.xml" value="0.1" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/drawable/ic_rec.xml" value="0.127" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/drawable/ic_rectangle75.xml" value="0.133" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/drawable/ic_vectorcart.xml" value="0.1635" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/drawable/ic_vectordelet.xml" value="0.1335" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/drawable/ic_vectorfavs.xml" value="0.133" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/drawable/login_pic.xml" value="0.1095" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/drawable/roundbutton.xml" value="0.1855" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/font/fontt.xml" value="0.3296296296296296" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/activity_cart.xml" value="0.2545289855072464" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/activity_cart.xml" value="0.16" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/activity_category.xml" value="0.371875" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/activity_category_actiity.xml" value="0.1828774062816616" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/activity_checkout.xml" value="0.2" />
@@ -20,15 +26,15 @@
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/activity_payment.xml" value="0.1828774062816616" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/activity_product_detail.xml" value="0.16" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/activity_product_detail.xml" value="0.29595015576323985" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/activity_search.xml" value="0.371875" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/activity_splash.xml" value="0.22" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/dialog_forgot.xml" value="0.25" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/item_cart.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/item_cart.xml" value="0.18" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/item_categories.xml" value="0.27717391304347827" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/item_product.xml" value="0.25" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/quantity.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/layout/quantity.xml" value="0.2" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/menu/cart.xml" value="0.1" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/baraz/app/src/main/res/menu/menu.xml" value="0.1" />
         <entry key="..\:/e app/Bazar/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.247" />

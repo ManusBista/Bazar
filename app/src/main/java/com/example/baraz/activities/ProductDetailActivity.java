@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Html;
 import android.view.Menu;
@@ -65,6 +66,13 @@ public class ProductDetailActivity extends AppCompatActivity {
             }
         });
 
+        binding.like.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                binding.like.setImageResource(R.drawable.ic_baseline_favorite_24);
+            }
+        });
+
         binding.desName.setText(name);
 //
         getProductDetails(id);
@@ -78,6 +86,7 @@ public class ProductDetailActivity extends AppCompatActivity {
             cart.addItem(currentProduct, 1);
             binding.addToCart.setEnabled(false);
             binding.addToCart.setText("Added to Cart ");
+
         });
     }
 
