@@ -45,6 +45,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
 
     }
 
+
     @NonNull
     @Override
     public CartAdapter.CartViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -63,15 +64,15 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
         holder.binding.cartPrice.setText("$" + product.getPrice());
 //        holder.binding.quantity.setText(product.getQuantity() + " item(s)");
 
-        ItemCartBinding itemCartBinding  = ItemCartBinding.inflate(LayoutInflater.from(context));
+//        ItemCartBinding itemCartBinding  = ItemCartBinding.inflate(LayoutInflater.from(context));
 
 //        itemCartBinding.productName.setText(product.getName());
 //        itemCartBinding.productStock.setText("Stock: " + product.getStock());
-        itemCartBinding.quantity.setText(String.valueOf(product.getQuantity()));
+        holder.binding.quantity.setText(String.valueOf(product.getQuantity()));
 
         int stock = product.getStock();
 
-        itemCartBinding.plusBtn.setOnClickListener(view1 -> {
+        holder.binding.plusBtn.setOnClickListener(view1 -> {
             int quantity = product.getQuantity();
             quantity++;
 
@@ -80,7 +81,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
                 return;
             } else {
                 product.setQuantity(quantity);
-                itemCartBinding.quantity.setText(String.valueOf(quantity));
+                holder.binding.quantity.setText(String.valueOf(quantity));
             }
 
             notifyDataSetChanged();
@@ -88,20 +89,23 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
             cartListener.onQuantityChanged();
         });
 
-        itemCartBinding.minusBtn.setOnClickListener(view12 -> {
+        holder.binding.minusBtn.setOnClickListener(view12 -> {
             int quantity = product.getQuantity();
             if (quantity > 1)
                 quantity--;
             product.setQuantity(quantity);
-            itemCartBinding.quantity.setText(String.valueOf(quantity));
+            holder.binding.quantity.setText(String.valueOf(quantity));
+
 
             notifyDataSetChanged();
             cart.updateItem(product, product.getQuantity());
             cartListener.onQuantityChanged();
         });
 
-
+//        holder.bindingcart.clearCart();
     }
+
+
 
     @Override
     public int getItemCount() {
@@ -115,5 +119,9 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
             super(itemView);
             binding = ItemCartBinding.bind(itemView);
         }
+
     }
+
+
 }
+
