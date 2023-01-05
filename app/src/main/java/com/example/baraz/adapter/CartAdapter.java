@@ -61,61 +61,46 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
 
         holder.binding.cartName.setText(product.getName());
         holder.binding.cartPrice.setText("$" + product.getPrice());
-        holder.binding.quantity.setText(product.getQuantity() + " item(s)");
+//        holder.binding.quantity.setText(product.getQuantity() + " item(s)");
 
-        holder.itemView.setOnClickListener(view -> {
+        ItemCartBinding itemCartBinding  = ItemCartBinding.inflate(LayoutInflater.from(context));
 
-            QuantityBinding quantityBinding = QuantityBinding.inflate(LayoutInflater.from(context));
+//        itemCartBinding.productName.setText(product.getName());
+//        itemCartBinding.productStock.setText("Stock: " + product.getStock());
+        itemCartBinding.quantity.setText(String.valueOf(product.getQuantity()));
 
-            AlertDialog dialog = new AlertDialog.Builder(context)
-                    .setView(quantityBinding.getRoot())
-                    .create();
+        int stock = product.getStock();
 
-            dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.R.color.transparent));
+        itemCartBinding.plusBtn.setOnClickListener(view1 -> {
+            int quantity = product.getQuantity();
+            quantity++;
 
-            quantityBinding.productName.setText(product.getName());
-            quantityBinding.productStock.setText("Stock: " + product.getStock());
-            quantityBinding.quantity.setText(String.valueOf(product.getQuantity()));
-
-            int stock = product.getStock();
-
-            quantityBinding.plusBtn.setOnClickListener(view1 -> {
-                int quantity = product.getQuantity();
-                quantity++;
-
-                if (quantity > product.getStock()) {
-                    Toast.makeText(context, "Max stock available: " + product.getStock(), Toast.LENGTH_SHORT).show();
-                    return;
-                } else {
-                    product.setQuantity(quantity);
-                    quantityBinding.quantity.setText(String.valueOf(quantity));
-                }
-
-                notifyDataSetChanged();
-                cart.updateItem(product, product.getQuantity());
-                cartListener.onQuantityChanged();
-            });
-
-            quantityBinding.minusBtn.setOnClickListener(view12 -> {
-                int quantity = product.getQuantity();
-                if (quantity > 1)
-                    quantity--;
+            if (quantity > product.getStock()) {
+                Toast.makeText(context, "Max stock available: " + product.getStock(), Toast.LENGTH_SHORT).show();
+                return;
+            } else {
                 product.setQuantity(quantity);
-                quantityBinding.quantity.setText(String.valueOf(quantity));
+                itemCartBinding.quantity.setText(String.valueOf(quantity));
+            }
 
-                notifyDataSetChanged();
-                cart.updateItem(product, product.getQuantity());
-                cartListener.onQuantityChanged();
-            });
-
-            quantityBinding.saveBtn.setOnClickListener(view13 -> {
-                dialog.dismiss();
-//                notifyDataSetChanged();
-//                cart.updateItem(product,product.getQuantity());
-//                cartListener.onQuantityChanged();
-            });
-            dialog.show();
+            notifyDataSetChanged();
+            cart.updateItem(product, product.getQuantity());
+            cartListener.onQuantityChanged();
         });
+
+        itemCartBinding.minusBtn.setOnClickListener(view12 -> {
+            int quantity = product.getQuantity();
+            if (quantity > 1)
+                quantity--;
+            product.setQuantity(quantity);
+            itemCartBinding.quantity.setText(String.valueOf(quantity));
+
+            notifyDataSetChanged();
+            cart.updateItem(product, product.getQuantity());
+            cartListener.onQuantityChanged();
+        });
+
+
     }
 
     @Override

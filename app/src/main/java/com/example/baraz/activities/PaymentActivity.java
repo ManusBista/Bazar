@@ -25,6 +25,7 @@ public class PaymentActivity extends AppCompatActivity {
         binding.webview.loadUrl(Constants.PAYMENT_URL + orderCode);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
     }
 
     @Override

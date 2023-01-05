@@ -63,12 +63,12 @@ public class CartActivity extends AppCompatActivity {
            startActivity(new Intent(CartActivity.this,CheckoutActivity.class));
         });
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
-    @Override
-    public boolean onSupportNavigateUp() {
-        finish();
-        return super.onSupportNavigateUp();
-    }
+//    @Override
+//    public boolean onSupportNavigateUp() {
+//        finish();
+//        return super.onSupportNavigateUp();
+//    }
 }
