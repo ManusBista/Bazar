@@ -63,8 +63,15 @@ public class CartActivity extends AppCompatActivity {
            startActivity(new Intent(CartActivity.this,CheckoutActivity.class));
         });
 
+        binding.backPress.setOnClickListener(view -> finish());
+        binding.ClearCart.setOnClickListener(view -> {
+            cart.clearCart();
+
+        });
+
 //        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
+
 
 //    @Override
 //    public boolean onSupportNavigateUp() {

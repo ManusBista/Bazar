@@ -39,6 +39,7 @@ public class ProductDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityProductDetailBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        final Boolean[] imageChange = {true};
 
         String name = getIntent().getStringExtra("name");
         String image = getIntent().getStringExtra("image");
@@ -69,7 +70,15 @@ public class ProductDetailActivity extends AppCompatActivity {
         binding.like.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                binding.like.setImageResource(R.drawable.ic_baseline_favorite_24);
+                if(imageChange[0]){
+                    binding.like.setImageResource(R.drawable.ic_favorite);
+                    imageChange[0] = false;
+
+                }
+                else {
+                    binding.like.setImageResource(R.drawable.ic_baseline_favorite_border_24);
+                    imageChange[0] = true;
+                };
             }
         });
 
